@@ -1,0 +1,20 @@
+#pragma once
+
+// AXIS
+#define AXIS_OX (glm::vec3(1, 0, 0))
+#define AXIS_OY (glm::vec3(0, 1, 0))
+#define AXIS_OZ (glm::vec3(0, 0, 1))
+
+// DEFORMATIONS
+#define DEFORMATION_NONE            (0)
+#define DEFORMATION_LOSE_LIFE_POINT (1)
+#define DEFORMATION_OVERDRIVE       (2)
+#define DEFORMATION_LOSE_FUEL       (3)
+#define DEFORMATION_INVULNERABLE    (4)
+#define DEFORMATION_GET_FUEL        (5)
+
+#define DEFORMATION_LOSE_LIFE_POINT_DURATION	(1.f)
+#define DEFORMATION_OVERDRIVE_DURATION			(5.f)
+#define DEFORMATION_LOSE_FUEL_DURATION			(1.f)
+#define DEFORMATION_INVULNERABLE_DURATION		(10.f)
+#define DEFORMATION_GET_FUEL_DURATION			(1.f)
